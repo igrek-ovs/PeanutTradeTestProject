@@ -2,7 +2,11 @@
 
 public class InvalidCurrencyPairException : Exception
 {
-    public InvalidCurrencyPairException() : base() { }
-    
-    public InvalidCurrencyPairException(string message) : base(message) { }
+    public InvalidCurrencyPairException()
+    {
+    }
+
+    public InvalidCurrencyPairException(string message) : base(message)
+    {
+    }
 }

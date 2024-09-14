@@ -16,7 +16,7 @@ public class Program
         builder.Services.AddSwaggerConfiguration();
 
         builder.Services.AddProjectServices();
-        
+
         builder.Services.AddHttpClient();
 
         var app = builder.Build();
@@ -28,7 +28,7 @@ public class Program
         }
 
         app.UseHttpsRedirection();
-        
+
         app.UseCors(builder =>
         {
             builder
@@ -36,9 +36,9 @@ public class Program
                 .AllowAnyMethod()
                 .AllowAnyHeader();
         });
-        
+
         app.MapControllers();
-        
+
         app.Run();
     }
 }

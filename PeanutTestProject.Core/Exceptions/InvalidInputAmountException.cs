@@ -2,5 +2,7 @@
 
 public class InvalidInputAmountException : Exception
 {
-    public InvalidInputAmountException(string message) : base(message) { }
+    public InvalidInputAmountException(string message) : base(message)
+    {
+    }
 }

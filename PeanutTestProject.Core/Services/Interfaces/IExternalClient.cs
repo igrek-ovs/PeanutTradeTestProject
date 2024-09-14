@@ -1,4 +1,4 @@
-﻿namespace PeanutTestProject.Core.ExternalClients;
+﻿namespace PeanutTestProject.Core.Services.Interfaces;
 
 public interface IExternalClient
 {

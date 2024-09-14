@@ -1,9 +1,9 @@
-﻿using System.Reflection;
-using Binance.Net.Clients;
+﻿using Binance.Net.Clients;
 using Kucoin.Net.Clients;
 using Microsoft.OpenApi.Models;
-using PeanutTestProject.Core.ExternalClients;
 using PeanutTestProject.Core.Services;
+using PeanutTestProject.Core.Services.ExternalClients;
+using PeanutTestProject.Core.Services.Interfaces;
 
 namespace PeanutTestProject.Core.DI;
 
@@ -30,7 +30,7 @@ public static class DependencyInjectionExtensions
             {
                 Title = "Peanut Trade Test Project",
                 Version = "v1",
-                Description = "Peanut Trade Test Project",
+                Description = "Peanut Trade Test Project"
             });
         });
 

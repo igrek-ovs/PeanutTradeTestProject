@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PeanutTestProject.Core.DTO_s;
-using PeanutTestProject.Core.Services;
+using PeanutTestProject.Core.Services.Interfaces;
 
 namespace PeanutTestProject.Api.Controllers;
 

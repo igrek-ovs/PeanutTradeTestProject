@@ -1,6 +1,6 @@
 ﻿using PeanutTestProject.Core.DTO_s;
 
-namespace PeanutTestProject.Core.Services;
+namespace PeanutTestProject.Core.Services.Interfaces;
 
 public interface IExchangeService
 {
