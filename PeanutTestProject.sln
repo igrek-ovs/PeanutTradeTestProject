@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeanutTestProject.Core", "PeanutTestProject.Core\PeanutTestProject.Core.csproj", "{368F9746-5FFB-40C7-9480-9CEAB6892D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeanutTestProject.Api", "PeanutTestProject.Api\PeanutTestProject.Api.csproj", "{CF40B9C4-B01F-4134-9A82-4AF483F50FDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{368F9746-5FFB-40C7-9480-9CEAB6892D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368F9746-5FFB-40C7-9480-9CEAB6892D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368F9746-5FFB-40C7-9480-9CEAB6892D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368F9746-5FFB-40C7-9480-9CEAB6892D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF40B9C4-B01F-4134-9A82-4AF483F50FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF40B9C4-B01F-4134-9A82-4AF483F50FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF40B9C4-B01F-4134-9A82-4AF483F50FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF40B9C4-B01F-4134-9A82-4AF483F50FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
