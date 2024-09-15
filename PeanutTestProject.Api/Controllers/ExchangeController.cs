@@ -22,7 +22,7 @@ public class ExchangeController : ControllerBase
         return Ok(result);
     }
 
-    [HttpGet("getRates")]
+    [HttpGet("get-rates")]
     public async Task<ActionResult<List<ExchangeRateResultDto>>> GetRates(string baseCurrency, string quoteCurrency)
     {
         var result = await _exchangeService.GetRatesAsync(baseCurrency, quoteCurrency);
